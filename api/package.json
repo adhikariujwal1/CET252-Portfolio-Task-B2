@@ -1,0 +1,27 @@
+{
+  "name": "student-management-api",
+  "version": "1.0.0",
+  "description": "Student Management System REST API — CET252 Portfolio Task B2",
+  "main": "server.js",
+  "engines": {
+    "node": "20.10.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node db/seed.js",
+    "docs": "apidoc -i routes/ -o ../docs/",
+    "test": "cross-env DB_PATH=./tests/test-database.sqlite npm run seed && cross-env DB_PATH=./tests/test-database.sqlite jest --runInBand"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^4.19.2",
+    "express-validator": "^7.1.0",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "apidoc": "^1.2.0",
+    "cross-env": "^7.0.3",
+    "jest": "^29.0.0",
+    "supertest": "^6.3.3"
+  }
+}

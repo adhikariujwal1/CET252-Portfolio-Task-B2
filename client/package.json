@@ -1,0 +1,13 @@
+{
+  "name": "student-management-client",
+  "version": "1.0.0",
+  "description": "Client application for the Student Management System — CET252 Portfolio Task B2",
+  "scripts": {
+    "start": "npx serve . -l 5000",
+    "test": "npx testcafe chrome tests/student-list.test.js tests/student-form.test.js"
+  },
+  "devDependencies": {
+    "serve": "^14.2.3",
+    "testcafe": "^3.6.2"
+  }
+}
