@@ -64,4 +64,3 @@ Full documentation with parameters and example responses is generated via APIDOC
 - Trello board (see separate B1 submission)
 - Figma lo-fi and hi-fi prototype files
 - Screencast recording
-- Git commit history (this zip is a snapshot of the code; commits should be made incrementally as you build, per the B1 backlog)
